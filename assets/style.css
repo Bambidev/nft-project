@@ -351,6 +351,11 @@ main {
     cursor: pointer;
 }
 
+.category:hover {
+    box-shadow: 0px 0px 5px #475d9b;
+    transition: box-shadow 400ms;
+}
+
 .active {
     background: var(--primary);
 }
