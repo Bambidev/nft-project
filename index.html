@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nucba NFT</title>
     <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/mediaqueries.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <img class="logo" src="./assets/img/logo.png" alt="logo">
         <nav class="navbar">
+
+            <label class="menu-label" for="menu-toggle">
+                <img class="menu-icon" src="./assets/img/menu.png" alt="icono-menu">
+            </label>
+
+            <input type="checkbox" id="menu-toggle">
+            
             <ul class="navbar-list">
                 <li>
                     <a href="#">Home</a>
@@ -29,17 +37,98 @@
                     <a href="#">Contacto</a>
                 </li>
             </ul>
+
+            <label class="cart-label" for="cart-toggle">
+                <img class="cart-icon" src="./assets/img/cart-icon.svg" alt="carrito">
+            </label>
+
+            <input type="checkbox" id="cart-toggle">
+
+            <div class="cart">
+                <h2>Tus NFTs</h2>
+                
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+
+                    <div class="item-info">
+                        <h3 class="item-titlle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+
+                    <div class="item-info">
+                        <h3 class="item-titlle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+
+                    <div class="item-info">
+                        <h3 class="item-titlle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="./assets/img/cart/cart-img.png" alt="un producto">
+
+                    <div class="item-info">
+                        <h3 class="item-titlle">Messi</h3>
+                        <p class="item-bid">Current Bid</p>
+                        <span class="item-price">4.8 ETH</span>
+                    </div>
+
+                    <div class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </div>
+                </div>
+
+                <span class="divider"></span>
+
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>18.3 ETH</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+
+            </div>
         </nav>
-        <img class="cart-icon" src="./assets/img/cart-icon.svg" alt="carrito">
     </header>
 
     <!-- Main -->
-
     <main>
         <section id="hero">
 
             <div class="hero-info">
-              <h1>Descubre la nueva era de Cripto</h1> 
+              <h1>Descubre la nueva era de <span>Cripto</span></h1> 
               <p>NUCBA NFT es el primer Marketplace educativo tecnológico de    NFT, que son elementos digitales épicos que realmente puedes poseer. Los
                 elementos digitales existen desde hace mucho tiempo, pero
                 <span>Nucba</span> como este.</p> 
