@@ -1,3 +1,3 @@
 # nft-project
 
-## Deploy: https://nft-project-bambidev.vercel.app/
+### Deploy: https://nft-project-bambidev.vercel.app/
